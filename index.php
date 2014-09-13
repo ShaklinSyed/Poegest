@@ -1,24 +1,24 @@
 <?php
 
+include_once "lib.php";
+
 echo <<<_END
-
 <!Doctype html>
-
 <html>
 	<head>
-		<title>Poegest</title>
+		<title>$appname</title>
+		<link rel="stylesheet" href="style/style.css" />
 	</head>
 
 	<body>
-		<span>Poegest</span>
-		<form>
-			<input type="text" />
-			<br />
+		<h1 class="title">Poegest</h1>
+		<form class="title">
+			<input type="text" /><br />
 			<input type="button" value= "search" />
 		</form>
 	</body>
 </html>
-
 _END;
 ?>
+
 
